@@ -1,6 +1,6 @@
 let paupiettes = [];
 
-fetch("paupiette.json")
+/*fetch("paupiette.json")
 .then(res => res.json())
 .then(data => {
     paupiettes = data;
@@ -16,7 +16,7 @@ fetch("paupiette.json")
     console.error("Erreur chargement JSON :", error);
     document.getElementById("nom").innerText = "Erreur de chargement";
 });
-
+*/
 function paupietteDuJour() {
     const today = new Date();
     const index = today.getDate() % paupiettes.length;
