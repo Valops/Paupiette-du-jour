@@ -4,7 +4,17 @@ fetch("paupiette.json")
 .then(res => res.json())
 .then(data => {
     paupiettes = data;
+
+    if (paupiettes.length === 0) {
+        document.getElementById("nom").innerText = "Aucune paupiette disponible";
+        return;
+    }
+
     paupietteDuJour();
+})
+.catch(error => {
+    console.error("Erreur chargement JSON :", error);
+    document.getElementById("nom").innerText = "Erreur de chargement";
 });
 
 function paupietteDuJour() {
