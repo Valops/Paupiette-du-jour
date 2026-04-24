@@ -1,1 +1,50 @@
-[]
+[
+{
+"nom":"Paupiette aux petits légumes",
+"description":"Paupiette accompagnée de légumes mijotés.",
+"image":"Images/paupiette-petits-legumes.webp",
+"auteur":"Valops"
+},
+
+{
+"nom":"Paupiette champignon et sauge",
+"description":"Préparation aux notes de champignon et de sauge.",
+"image":"Images/paupiette-champignon-sauge.jpg",
+"auteur":"Valops"
+},
+
+{
+"nom":"Paupiette de dinde au four",
+"description":"Paupiette de dinde cuite au four.",
+"image":"Images/paupiette-dinde-four.webp",
+"auteur":"Valops"
+},
+
+{
+"nom":"Paupiette de poulet aux légumes",
+"description":"Recette de paupiette de poulet accompagnée de légumes.",
+"image":"Images/paupiette-poulet-legumes.jpg",
+"auteur":"Valops"
+},
+
+{
+"nom":"Paupiette de veau à la paysanne",
+"description":"Préparation traditionnelle de veau à la paysanne.",
+"image":"Images/paupiette-veau-paysanne.jpg",
+"auteur":"Valops"
+},
+
+{
+"nom":"Paupiette de volaille à la mozzarella",
+"description":"Paupiette de volaille garnie à la mozzarella.",
+"image":"Images/paupiette-volaille-mozzarella.jpg",
+"auteur":"Valops"
+},
+
+{
+"nom":"Paupiette vin blanc moutarde",
+"description":"Recette au vin blanc et à la moutarde.",
+"image":"Images/paupiette-vin-blanc-moutarde.jpg",
+"auteur":"Valops"
+}
+]
